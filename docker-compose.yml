@@ -1,0 +1,33 @@
+version: '3.7'
+services:
+  mysql:
+    image: mysql:8.0.18
+    container_name: mysql
+    command: --innodb_use_native_aio=0
+    ports:
+      - 3306:3306
+    volumes:
+      - ./data_mysql:/var/lib/mysql
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=app
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=pass
+    restart: always
+
+  postgres:
+    image: postgres:12.1
+    container_name: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - data_postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_RANDOM_ROOT_PASSWORD=yes
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=pass
+    restart: always
+volumes:
+  data_postgres:
+    driver: local

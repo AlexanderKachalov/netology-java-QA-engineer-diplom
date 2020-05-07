@@ -1,0 +1,441 @@
+[ {
+  "uid" : "35e1a0668435d47e",
+  "name" : "Тест №19. Оплата кредитом по данным карты c произвольным номером карты",
+  "time" : {
+    "start" : 1588865939673,
+    "stop" : 1588865959725,
+    "duration" : 20052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ca8b9c9392ec35",
+  "name" : "Тест №15. Оплата картой. Все поля формы пустые",
+  "time" : {
+    "start" : 1588866157290,
+    "stop" : 1588866158382,
+    "duration" : 1092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "660d3cd769ddac2b",
+  "name" : "Тест №23. Оплата кредитом по данным карты c истекшим годом: 19",
+  "time" : {
+    "start" : 1588866141899,
+    "stop" : 1588866143914,
+    "duration" : 2015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77fe022f9f1701d9",
+  "name" : "Тест №38. Оплата картой со статусом DECLINED. Проверка поля amount в таблице payment_entity. С карты должна списаться сумма amount = 45000",
+  "time" : {
+    "start" : 1588866014340,
+    "stop" : 1588866026658,
+    "duration" : 12318
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8751819dee9bb80",
+  "name" : "Тест №18. Оплата кредитом по данным карты статус DECLINED. Валидные данные",
+  "time" : {
+    "start" : 1588866491718,
+    "stop" : 1588866535915,
+    "duration" : 44197
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "441f81063d77f168",
+  "name" : "Тест №11. Оплата картой. Поле владелец: номер телефона",
+  "time" : {
+    "start" : 1588866268580,
+    "stop" : 1588866311368,
+    "duration" : 42788
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2884a23a42bde51a",
+  "name" : "Тест №44. Оплата кредитом невалидной картой. В таблицы credit_request_entity и order_entity не должны добавляться записи",
+  "time" : {
+    "start" : 1588865846751,
+    "stop" : 1588865871127,
+    "duration" : 24376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd7c80cffd5a1257",
+  "name" : "Тест №02. Оплата картой статус DECLINED. Валидные данные",
+  "time" : {
+    "start" : 1588866222599,
+    "stop" : 1588866265659,
+    "duration" : 43060
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d0b014ef4cfd5e9",
+  "name" : "Тест №36. Оплата кредитом по данным карты со статусом DECLINED. Проверка поля status в таблице credit_request_entity",
+  "time" : {
+    "start" : 1588866379842,
+    "stop" : 1588866386219,
+    "duration" : 6377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e87549abec4579b5",
+  "name" : "Тест №27. Оплата кредитом по данным карты. Поле владелец: номер телефона",
+  "time" : {
+    "start" : 1588866311440,
+    "stop" : 1588866354759,
+    "duration" : 43319
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "92566f211ead5b7f",
+  "name" : "Тест №12. Оплата картой. Поле владелец: пустое",
+  "time" : {
+    "start" : 1588866168296,
+    "stop" : 1588866170079,
+    "duration" : 1783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb9a4ff7e4e7a70a",
+  "name" : "Тест №13. Оплата картой. Поле CVC/CVV: 000",
+  "time" : {
+    "start" : 1588865959757,
+    "stop" : 1588866014294,
+    "duration" : 54537
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e9d7d796b846ed",
+  "name" : "Тест №32. Оплата кредитом по данным карты. Поле CVC/CVV пустое, затем заполняется, должно пропасть сообщение о неверно заполненном поле",
+  "time" : {
+    "start" : 1588866549059,
+    "stop" : 1588866571833,
+    "duration" : 22774
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bea7ef8dffcbb65",
+  "name" : "Тест №26. Оплата кредитом по данным карты. Поле владелец: произвольные символы",
+  "time" : {
+    "start" : 1588866386233,
+    "stop" : 1588866428808,
+    "duration" : 42575
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "afbebc71d12364e",
+  "name" : "Тест №29. Оплата кредитом по данным карты. Поле CVC/CVV: 000",
+  "time" : {
+    "start" : 1588866091796,
+    "stop" : 1588866134818,
+    "duration" : 43022
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "85a3b09f7795a615",
+  "name" : "Тест №34. Оплата картой со статусом DECLINED. Проверка поля status в таблице payment_entity",
+  "time" : {
+    "start" : 1588866375601,
+    "stop" : 1588866379837,
+    "duration" : 4236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cdf3b14d0247d7f",
+  "name" : "Тест №37. Оплата картой со статусом APPROVED. Проверка поля amount в таблице payment_entity. С карты должна списаться сумма amount = 45000",
+  "time" : {
+    "start" : 1588866145018,
+    "stop" : 1588866155241,
+    "duration" : 10223
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8563dc974b8e8b57",
+  "name" : "Тест №20. Оплата кредитом по данным карты с неполным номером карты: 4444 4444 4444",
+  "time" : {
+    "start" : 1588866536104,
+    "stop" : 1588866549031,
+    "duration" : 12927
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebdd62dc18779ccc",
+  "name" : "Тест №01. Оплата картой статус APPROVED. Валидные данные",
+  "time" : {
+    "start" : 1588866354774,
+    "stop" : 1588866364406,
+    "duration" : 9632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0d29fa9b3167f28",
+  "name" : "Тест №06. Оплата картой c нулевым месяцем: 00",
+  "time" : {
+    "start" : 1588866179654,
+    "stop" : 1588866222572,
+    "duration" : 42918
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "49dd39ccf96a5228",
+  "name" : "Тест №10. Оплата картой. Поле владелец: произвольные символы",
+  "time" : {
+    "start" : 1588865883614,
+    "stop" : 1588865939554,
+    "duration" : 55940
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bd6a13881ceffbd",
+  "name" : "Тест №39. Оплата картой со статусом APPROVED. Сравнение полей transaction_id таблицы payment_entity и payment_id таблицы order_entity",
+  "time" : {
+    "start" : 1588866158387,
+    "stop" : 1588866168289,
+    "duration" : 9902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88f8a10c1a15ed40",
+  "name" : "Тест №24. Оплата кредитом по данным карты c невалидным будущим годом: 30",
+  "time" : {
+    "start" : 1588866155263,
+    "stop" : 1588866157240,
+    "duration" : 1977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c92809cb1173c2",
+  "name" : "Тест №28. Оплата кредитом по данным карты. Поле владелец: пустое",
+  "time" : {
+    "start" : 1588866629835,
+    "stop" : 1588866631609,
+    "duration" : 1774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bb9dd6abedb48b0",
+  "name" : "Тест №03. Оплата картой c произвольным номером карты",
+  "time" : {
+    "start" : 1588866038953,
+    "stop" : 1588866049116,
+    "duration" : 10163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cabc09c57c687066",
+  "name" : "Тест №42. Оплата кредитом по данным карты DECLINED. Сравнение полей bank_id таблицы credit_request_entity и credit_id таблицы order_entity",
+  "time" : {
+    "start" : 1588866364415,
+    "stop" : 1588866372580,
+    "duration" : 8165
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ac7021550af7c74",
+  "name" : "Тест №35. Оплата кредитом по данным карты с статусом APPROVED. Проверка поля status в таблице credit_request_entity",
+  "time" : {
+    "start" : 1588866571842,
+    "stop" : 1588866576795,
+    "duration" : 4953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "770a608eb04ddc97",
+  "name" : "Тест №17. Оплата кредитом по данным карты статус APPROVED. Валидные данные",
+  "time" : {
+    "start" : 1588866622010,
+    "stop" : 1588866629830,
+    "duration" : 7820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d0838d564acfd57",
+  "name" : "Тест №14. Оплата картой. Поле CVC/CVV: пустое",
+  "time" : {
+    "start" : 1588866489511,
+    "stop" : 1588866491715,
+    "duration" : 2204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "597159bbedfb98c",
+  "name" : "Тест №08. Оплата картой c невалидным годом: 30",
+  "time" : {
+    "start" : 1588866481408,
+    "stop" : 1588866483776,
+    "duration" : 2368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73903895376be953",
+  "name" : "Тест №05. Оплата картой c несуществующем месяцем: 13",
+  "time" : {
+    "start" : 1588866265672,
+    "stop" : 1588866268576,
+    "duration" : 2904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d6cc35643b5120",
+  "name" : "Тест №09. Оплата картой. Поле владелец: введено кириллицей",
+  "time" : {
+    "start" : 1588866438695,
+    "stop" : 1588866481397,
+    "duration" : 42702
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "16df13f2065593ca",
+  "name" : "Тест №21. Оплата кредитом по данным карты c номером месяца: 13",
+  "time" : {
+    "start" : 1588865871534,
+    "stop" : 1588865883591,
+    "duration" : 12057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3224b730b107e2",
+  "name" : "Тест №43. Оплата невалидной картой. В таблицы payment_entity и order_entity не должны добавляться записи",
+  "time" : {
+    "start" : 1588866170083,
+    "stop" : 1588866179645,
+    "duration" : 9562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e5d42a82322417",
+  "name" : "Тест №22. Оплата кредитом по данным карты c номером месяца: 00",
+  "time" : {
+    "start" : 1588866049126,
+    "stop" : 1588866091764,
+    "duration" : 42638
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b16638b2e95dcd9",
+  "name" : "Тест №04. Оплата картой с неполным номером карты: 4444 4444 4444",
+  "time" : {
+    "start" : 1588866372596,
+    "stop" : 1588866375571,
+    "duration" : 2975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45d8425ddb426d90",
+  "name" : "Тест №40. Оплата картой со статусом DECLINED. Сравнение полей transaction_id таблицы payment_entity и payment_id таблицы order_entity",
+  "time" : {
+    "start" : 1588866029653,
+    "stop" : 1588866038947,
+    "duration" : 9294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3363dae7b9fa81e",
+  "name" : "Тест №41. Оплата кредитом по данным карты APPROVED. Сравнение полей bank_id таблицы credit_request_entity и credit_id таблицы order_entity",
+  "time" : {
+    "start" : 1588866428824,
+    "stop" : 1588866438688,
+    "duration" : 9864
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c245e9d3a43f39a2",
+  "name" : "Тест №25. Оплата кредитом по данным карты. Поле владелец: введено кириллицей",
+  "time" : {
+    "start" : 1588866576799,
+    "stop" : 1588866619711,
+    "duration" : 42912
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "67a15b35d9661c63",
+  "name" : "Тест №16. Оплата картой. Поле CVC/CVV пустое, затем заполняется, должно пропасть сообщение о неверно заполненном поле",
+  "time" : {
+    "start" : 1588866134856,
+    "stop" : 1588866141858,
+    "duration" : 7002
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f1717ab254a6cd3",
+  "name" : "Тест №07. Оплата картой c истекшим годом: 19",
+  "time" : {
+    "start" : 1588866026677,
+    "stop" : 1588866029647,
+    "duration" : 2970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50c60b323bd6240",
+  "name" : "Тест №31. Оплата кредитом по данным карты. Все поля формы пустые",
+  "time" : {
+    "start" : 1588866143917,
+    "stop" : 1588866145015,
+    "duration" : 1098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e68f44b0f030cd69",
+  "name" : "Тест №30. Оплата кредитом по данным карты. Поле CVC/CVV: пустое",
+  "time" : {
+    "start" : 1588866620053,
+    "stop" : 1588866622006,
+    "duration" : 1953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "138caec3c87a092d",
+  "name" : "Тест №33. Оплата картой со статусом APPROVED. Проверка поля status в таблице payment_entity",
+  "time" : {
+    "start" : 1588866483781,
+    "stop" : 1588866489505,
+    "duration" : 5724
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

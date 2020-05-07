@@ -1,0 +1,431 @@
+{
+  "uid" : "138caec3c87a092d",
+  "name" : "Тест №33. Оплата картой со статусом APPROVED. Проверка поля status в таблице payment_entity",
+  "fullName" : "WebServiceBuyATourTest.checkResponseStatusFieldFromDbIfCardPayApproved",
+  "historyId" : "a6adfa36af9a501e28a5241170f7f195",
+  "time" : {
+    "start" : 1588866483781,
+    "stop" : 1588866489505,
+    "duration" : 5724
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(by text: Купить) parent()",
+      "time" : {
+        "start" : 1588866483852,
+        "stop" : 1588866483852,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) parent()",
+      "time" : {
+        "start" : 1588866483852,
+        "stop" : 1588866483853,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(by text: Купить в кредит) parent()",
+      "time" : {
+        "start" : 1588866483853,
+        "stop" : 1588866483853,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) parent()",
+      "time" : {
+        "start" : 1588866483853,
+        "stop" : 1588866483853,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(open) http://localhost:8080",
+      "time" : {
+        "start" : 1588866483853,
+        "stop" : 1588866484013,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) click()",
+      "time" : {
+        "start" : 1588866484013,
+        "stop" : 1588866484183,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.heading.findBy(text 'Оплата по карте')) wait until([visible, 40000])",
+      "time" : {
+        "start" : 1588866484183,
+        "stop" : 1588866484362,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнение полей данными карты со статусом APPROVED",
+      "time" : {
+        "start" : 1588866484362,
+        "stop" : 1588866484363,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнение полей данными карты",
+      "time" : {
+        "start" : 1588866484363,
+        "stop" : 1588866486118,
+        "duration" : 1755
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) $(.input__control)",
+        "time" : {
+          "start" : 1588866484363,
+          "stop" : 1588866484363,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(.input__control) set value(4444444444444441)",
+        "time" : {
+          "start" : 1588866484363,
+          "stop" : 1588866484778,
+          "duration" : 415
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(By.xpath: ..) $(.input__control)",
+        "time" : {
+          "start" : 1588866484778,
+          "stop" : 1588866484779,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(.input__control) set value(06)",
+        "time" : {
+          "start" : 1588866484779,
+          "stop" : 1588866485043,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(By.xpath: ..) $(.input__control)",
+        "time" : {
+          "start" : 1588866485043,
+          "stop" : 1588866485043,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(.input__control) set value(21)",
+        "time" : {
+          "start" : 1588866485043,
+          "stop" : 1588866485261,
+          "duration" : 218
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(By.xpath: ..) $(.input__control)",
+        "time" : {
+          "start" : 1588866485261,
+          "stop" : 1588866485261,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(.input__control) set value(ALEXANDER KACHALOV)",
+        "time" : {
+          "start" : 1588866485261,
+          "stop" : 1588866485831,
+          "duration" : 570
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(By.xpath: ..) $(.input__control)",
+        "time" : {
+          "start" : 1588866485831,
+          "stop" : 1588866485832,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(.input__control) set value(228)",
+        "time" : {
+          "start" : 1588866485832,
+          "stop" : 1588866486118,
+          "duration" : 286
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cardData",
+        "value" : "CardData(cardNumber=4444444444444441, month=06, year=21, owner=ALEXANDER KACHALOV, cvc=228, status=APPROVED)"
+      } ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка оплаты c валидными данными",
+      "time" : {
+        "start" : 1588866486118,
+        "stop" : 1588866489445,
+        "duration" : 3327
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) click()",
+        "time" : {
+          "start" : 1588866486118,
+          "stop" : 1588866486298,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(with text: Операция одобрена Банком.) wait until([visible, 40000])",
+        "time" : {
+          "start" : 1588866486298,
+          "stop" : 1588866489444,
+          "duration" : 3146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение полей данными карты со статусом APPROVED",
+      "time" : {
+        "start" : 1588866489445,
+        "stop" : 1588866489446,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "выборка полей status, amount, transaction_id из таблицы payment_entity при оплате картой",
+      "time" : {
+        "start" : 1588866489446,
+        "stop" : 1588866489505,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MacBook-Air-mac"
+  }, {
+    "name" : "thread",
+    "value" : "6248@MacBook-Air-mac.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WebServiceBuyATourTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WebServiceBuyATourTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkResponseStatusFieldFromDbIfCardPayApproved"
+  }, {
+    "name" : "suite",
+    "value" : "WebServiceBuyATourTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "138caec3c87a092d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,581 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "WebServiceBuyATourTest",
+    "children" : [ {
+      "name" : "checkNullRecordsDbIfNotValidCreditPay",
+      "uid" : "2884a23a42bde51a",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588865846751,
+        "stop" : 1588865871127,
+        "duration" : 24376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidMonth",
+      "uid" : "16df13f2065593ca",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588865871534,
+        "stop" : 1588865883591,
+        "duration" : 12057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidAnyValuesOwner",
+      "uid" : "49dd39ccf96a5228",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588865883614,
+        "stop" : 1588865939554,
+        "duration" : 55940
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidNumber",
+      "uid" : "35e1a0668435d47e",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588865939673,
+        "stop" : 1588865959725,
+        "duration" : 20052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidZeroCVC",
+      "uid" : "fb9a4ff7e4e7a70a",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588865959757,
+        "stop" : 1588866014294,
+        "duration" : 54537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkAmountFieldFromDbIfCardPayDeclined",
+      "uid" : "77fe022f9f1701d9",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866014340,
+        "stop" : 1588866026658,
+        "duration" : 12318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidLastYear",
+      "uid" : "4f1717ab254a6cd3",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866026677,
+        "stop" : 1588866029647,
+        "duration" : 2970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "comparePaymentOrderIfCardPayDeclined",
+      "uid" : "45d8425ddb426d90",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866029653,
+        "stop" : 1588866038947,
+        "duration" : 9294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidNumber",
+      "uid" : "6bb9dd6abedb48b0",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866038953,
+        "stop" : 1588866049116,
+        "duration" : 10163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidZeroMonth",
+      "uid" : "d5e5d42a82322417",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866049126,
+        "stop" : 1588866091764,
+        "duration" : 42638
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidZeroCVC",
+      "uid" : "afbebc71d12364e",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866091796,
+        "stop" : 1588866134818,
+        "duration" : 43022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidEmptyCVCThenValidCvc",
+      "uid" : "67a15b35d9661c63",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866134856,
+        "stop" : 1588866141858,
+        "duration" : 7002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidLastYear",
+      "uid" : "660d3cd769ddac2b",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866141899,
+        "stop" : 1588866143914,
+        "duration" : 2015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidEmptyAllField",
+      "uid" : "50c60b323bd6240",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866143917,
+        "stop" : 1588866145015,
+        "duration" : 1098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkAmountFieldFromDbIfCardPayApproved",
+      "uid" : "7cdf3b14d0247d7f",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866145018,
+        "stop" : 1588866155241,
+        "duration" : 10223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidFutureYear",
+      "uid" : "88f8a10c1a15ed40",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866155263,
+        "stop" : 1588866157240,
+        "duration" : 1977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidEmptyAllField",
+      "uid" : "e7ca8b9c9392ec35",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866157290,
+        "stop" : 1588866158382,
+        "duration" : 1092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "comparePaymentOrderIfCardPayApproved",
+      "uid" : "1bd6a13881ceffbd",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866158387,
+        "stop" : 1588866168289,
+        "duration" : 9902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidEmptyOwner",
+      "uid" : "92566f211ead5b7f",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866168296,
+        "stop" : 1588866170079,
+        "duration" : 1783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkNullRecordsDbIfNotValidCardPay",
+      "uid" : "aa3224b730b107e2",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866170083,
+        "stop" : 1588866179645,
+        "duration" : 9562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidZeroMonth",
+      "uid" : "a0d29fa9b3167f28",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866179654,
+        "stop" : 1588866222572,
+        "duration" : 42918
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardDeclined",
+      "uid" : "cd7c80cffd5a1257",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866222599,
+        "stop" : 1588866265659,
+        "duration" : 43060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidMonth",
+      "uid" : "73903895376be953",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866265672,
+        "stop" : 1588866268576,
+        "duration" : 2904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidPhoneNumberOwner",
+      "uid" : "441f81063d77f168",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866268580,
+        "stop" : 1588866311368,
+        "duration" : 42788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidPhoneNumberOwner",
+      "uid" : "e87549abec4579b5",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866311440,
+        "stop" : 1588866354759,
+        "duration" : 43319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardApproved",
+      "uid" : "ebdd62dc18779ccc",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866354774,
+        "stop" : 1588866364406,
+        "duration" : 9632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "compareCreditOrderIfCreditPayDeclined",
+      "uid" : "cabc09c57c687066",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866364415,
+        "stop" : 1588866372580,
+        "duration" : 8165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardShortNumber",
+      "uid" : "2b16638b2e95dcd9",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866372596,
+        "stop" : 1588866375571,
+        "duration" : 2975
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkResponseStatusFieldFromDbIfCardPayDeclined",
+      "uid" : "85a3b09f7795a615",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866375601,
+        "stop" : 1588866379837,
+        "duration" : 4236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkResponseStatusFieldFromDbIfCreditPayDeclined",
+      "uid" : "4d0b014ef4cfd5e9",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866379842,
+        "stop" : 1588866386219,
+        "duration" : 6377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidAnyValuesOwner",
+      "uid" : "bea7ef8dffcbb65",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866386233,
+        "stop" : 1588866428808,
+        "duration" : 42575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "compareCreditOrderIfCreditPayApproved",
+      "uid" : "f3363dae7b9fa81e",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866428824,
+        "stop" : 1588866438688,
+        "duration" : 9864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidRusOwner",
+      "uid" : "c1d6cc35643b5120",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866438695,
+        "stop" : 1588866481397,
+        "duration" : 42702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidFutureYear",
+      "uid" : "597159bbedfb98c",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866481408,
+        "stop" : 1588866483776,
+        "duration" : 2368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkResponseStatusFieldFromDbIfCardPayApproved",
+      "uid" : "138caec3c87a092d",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866483781,
+        "stop" : 1588866489505,
+        "duration" : 5724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCardNotValidEmptyCVC",
+      "uid" : "2d0838d564acfd57",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866489511,
+        "stop" : 1588866491715,
+        "duration" : 2204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditDeclined",
+      "uid" : "8751819dee9bb80",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866491718,
+        "stop" : 1588866535915,
+        "duration" : 44197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditShortNumber",
+      "uid" : "8563dc974b8e8b57",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866536104,
+        "stop" : 1588866549031,
+        "duration" : 12927
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidEmptyCVCThenValidCvc",
+      "uid" : "8e9d7d796b846ed",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866549059,
+        "stop" : 1588866571833,
+        "duration" : 22774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkResponseStatusFieldFromDbIfCreditPayApproved",
+      "uid" : "4ac7021550af7c74",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866571842,
+        "stop" : 1588866576795,
+        "duration" : 4953
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidRusOwner",
+      "uid" : "c245e9d3a43f39a2",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1588866576799,
+        "stop" : 1588866619711,
+        "duration" : 42912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidEmptyCVC",
+      "uid" : "e68f44b0f030cd69",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866620053,
+        "stop" : 1588866622006,
+        "duration" : 1953
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditApproved",
+      "uid" : "770a608eb04ddc97",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866622010,
+        "stop" : 1588866629830,
+        "duration" : 7820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "payCreditNotValidEmptyOwner",
+      "uid" : "c7c92809cb1173c2",
+      "parentUid" : "682fbbdedec21fa479c7567bf0c96c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588866629835,
+        "stop" : 1588866631609,
+        "duration" : 1774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "682fbbdedec21fa479c7567bf0c96c5a"
+  } ]
+}

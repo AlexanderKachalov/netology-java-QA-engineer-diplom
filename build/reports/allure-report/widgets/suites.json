@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "ad1684d7106a3d2c9d0d5fb60482f7ce",
+    "name" : "WebServiceBuyATourTest",
+    "statistic" : {
+      "failed" : 18,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 26,
+      "unknown" : 0,
+      "total" : 44
+    }
+  } ]
+}
