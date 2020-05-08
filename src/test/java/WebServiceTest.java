@@ -414,7 +414,7 @@ public class WebServiceTest {
 
     // bug
     @Test
-    @DisplayName("Тест №37. Оплата картой со статусом APPROVED. Проверка поля amount в таблице payment_entity. С карты должна списаться сумма amount = 45000")
+    @DisplayName("Тест №37. Оплата картой со статусом APPROVED. Проверка поля amount в таблице payment_entity. Значение поля amount должно быть равно стоимости тура: amount = 45000")
     void checkAmountFieldFromDbIfCardPayApproved() throws SQLException {
         DbUtils dbUtils = new DbUtils();
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
@@ -428,7 +428,7 @@ public class WebServiceTest {
 
     // bug
     @Test
-    @DisplayName("Тест №38. Оплата картой со статусом DECLINED. Проверка поля amount в таблице payment_entity. С карты должна списаться сумма amount = 45000")
+    @DisplayName("Тест №38. Оплата картой со статусом DECLINED. Проверка поля amount в таблице payment_entity. Значение поля amount должно быть равно стоимости тура: amount = 45000")
     void checkAmountFieldFromDbIfCardPayDeclined() throws SQLException {
         DbUtils dbUtils = new DbUtils();
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
