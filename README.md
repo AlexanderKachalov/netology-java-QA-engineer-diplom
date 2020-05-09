@@ -28,7 +28,7 @@
   5. Формируем отчет в _Gradle_ командой ```./gradlew allureServe```   
 ### Для работы с PostgreSQL
   2. Запускаем веб-сервис командой ```java -jar aqa-shop.jar --spring.profiles.active=postgresql```    
-    * страница веб-сервиса находится по адресу ```http://localhost:8080```   
+   * страница веб-сервиса находится по адресу ```http://localhost:8080```   
   3. Запускаем симулятор банковских сервисов:
    * переходим в каталог _gate-simulator_ командой ```cd gate-simulator```  
    * запускаем симулятор сервисов командой ```npm start```   
