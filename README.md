@@ -17,22 +17,22 @@
 * устанавливаем на ПК программную платформу **Node** и устанавливаем и запускаем инструмент виртуализации **Docker**
 ---
 ### Запуск автотестов
-  1. Запускаем мультиконтейнерное приложение Docker командой ```docker-compose up -d```         
+  1. Запускаем мультиконтейнерное приложение _Docker_ командой ```docker-compose up -d```         
 #### Для работы с MySQL  
   2. Запускаем веб-сервис командой ```java -jar aqa-shop.jar --spring.profiles.active=mysql```   
    * страница веб-сервиса находится по адресу ```http://localhost:8080```   
   3. Запускаем симулятор банковских сервисов:      
-   * переходим в каталог gate-simulator командой ```cd gate-simulator```  
+   * переходим в каталог _gate-simulator_ командой ```cd gate-simulator```  
    * запускаем симулятор сервисов командой ```npm start```   
-  4. Запускаем авто-тесты в каталоге diplom командой ```./gradlew clean test allureReport```   
-  5. Формируем отчет Gradle командой ```./gradlew allureServe```   
+  4. Запускаем авто-тесты в каталоге _diplom_ командой ```./gradlew clean test allureReport```   
+  5. Формируем отчет в _Gradle_ командой ```./gradlew allureServe```   
 ### Для работы с PostgreSQL
   2. Запускаем веб-сервис командой ```java -jar aqa-shop.jar --spring.profiles.active=postgresql```    
     * страница веб-сервиса находится по адресу ```http://localhost:8080```   
   3. Запускаем симулятор банковских сервисов:
-   * переходим в каталог gate-simulator командой ```cd gate-simulator```  
+   * переходим в каталог _gate-simulator_ командой ```cd gate-simulator```  
    * запускаем симулятор сервисов командой ```npm start```   
-  4. Запускаем авто-тесты в каталоге diplom командой ```./gradlew clean test -DurlDb=jdbc:postgresql://localhost:5432/app allureReport```      
-  5. Формируем отчет Gradle командой ```./gradlew allureServe```   
+  4. Запускаем авто-тесты в каталоге _diplom_ командой ```./gradlew clean test -DurlDb=jdbc:postgresql://localhost:5432/app allureReport```      
+  5. Формируем отчет в _Gradle_ командой ```./gradlew allureServe```   
   
 
