@@ -469,7 +469,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №41. Оплата кредитом по данным карты APPROVED. Сравнение полей bank_id таблицы credit_request_entity и credit_id таблицы order_entity")
+    @DisplayName("Тест №41. Оплата кредитом по данным карты APPROVED. Сравнение полей credit_id таблицы order_entity и bank_id таблицы credit_request_entity")
     void compareCreditOrderIfCreditPayApproved() throws SQLException {
         DbUtils dbUtils = new DbUtils();
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
@@ -483,7 +483,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №42. Оплата кредитом по данным карты DECLINED. Сравнение полей bank_id таблицы credit_request_entity и credit_id таблицы order_entity")
+    @DisplayName("Тест №42. Оплата кредитом по данным карты DECLINED. Сравнение полей credit_id таблицы order_entity и bank_id таблицы credit_request_entity")
     void compareCreditOrderIfCreditPayDeclined() throws SQLException {
         DbUtils dbUtils = new DbUtils();
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
