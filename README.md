@@ -75,4 +75,3 @@
   ./gradlew allureServe
   ```   
   
-
