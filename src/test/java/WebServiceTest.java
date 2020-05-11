@@ -33,7 +33,7 @@ public class WebServiceTest {
 
     // оплата картой
     @Test
-    @DisplayName("Тест №01. Оплата картой статус APPROVED. Валидные данные")
+    @DisplayName("Тест №01. Оплата картой статус APPROVED. Корректные данные")
     void payCardApproved() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -43,7 +43,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №02. Оплата картой статус DECLINED. Валидные данные")
+    @DisplayName("Тест №02. Оплата картой статус DECLINED. Корректные данные")
     void payCardDeclined() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -63,7 +63,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №04. Оплата картой с неполным номером карты: 4444 4444 4444")
+    @DisplayName("Тест №04. Оплата картой с неполным номером карты: произвольные двенадцать цифр")
     void payCardShortNumber() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -73,7 +73,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №05. Оплата картой c несуществующем месяцем: 13")
+    @DisplayName("Тест №05. Оплата картой c некорректным номером месяца: 13")
     void payCardNotValidMonth() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -83,7 +83,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №06. Оплата картой c нулевым месяцем: 00")
+    @DisplayName("Тест №06. Оплата картой c некорректным номером месяца: 00")
     void payCardNotValidZeroMonth() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -93,7 +93,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №07. Оплата картой c истекшим годом: 19")
+    @DisplayName("Тест №07. Оплата картой c истекшим годом: -1 от текущего")
     void payCardNotValidLastYear() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -103,7 +103,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №08. Оплата картой c невалидным годом: 30")
+    @DisplayName("Тест №08. Оплата картой c годом более пяти лет: +6 от текущего")
     void payCardNotValidFutureYear() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -195,7 +195,7 @@ public class WebServiceTest {
 
     // оплата кредитом
     @Test
-    @DisplayName("Тест №17. Оплата кредитом по данным карты статус APPROVED. Валидные данные")
+    @DisplayName("Тест №17. Оплата кредитом по данным карты статус APPROVED. Корректные данные")
     void payCreditApproved() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -205,7 +205,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №18. Оплата кредитом по данным карты статус DECLINED. Валидные данные")
+    @DisplayName("Тест №18. Оплата кредитом по данным карты статус DECLINED. Корректные данные")
     void payCreditDeclined() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -225,7 +225,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №20. Оплата кредитом по данным карты с неполным номером карты: 4444 4444 4444")
+    @DisplayName("Тест №20. Оплата кредитом по данным карты с неполным номером карты: произвольные двенадцать цифр")
     void payCreditShortNumber() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -235,7 +235,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №21. Оплата кредитом по данным карты c номером месяца: 13")
+    @DisplayName("Тест №21. Оплата кредитом по данным карты c некорректным номером месяца: 13")
     void payCreditNotValidMonth() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -245,7 +245,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №22. Оплата кредитом по данным карты c номером месяца: 00")
+    @DisplayName("Тест №22. Оплата кредитом по данным карты c некорректным номером месяца: 00")
     void payCreditNotValidZeroMonth() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -255,7 +255,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №23. Оплата кредитом по данным карты c истекшим годом: 19")
+    @DisplayName("Тест №23. Оплата кредитом по данным карты c истекшим годом: -1 от текущего")
     void payCreditNotValidLastYear() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -265,7 +265,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №24. Оплата кредитом по данным карты c невалидным будущим годом: 30")
+    @DisplayName("Тест №24. Оплата кредитом по данным карты c годом более пяти лет: +6 от текущего")
     void payCreditNotValidFutureYear() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
@@ -275,7 +275,7 @@ public class WebServiceTest {
     }
 
     @Test
-    @DisplayName("Тест №25. Оплата кредитом по данным карты. Поле владелец: введено кириллицей")
+    @DisplayName("Тест №25. Оплата кредитом по данным карты. Поле владелец: введено на кириллице")
     void payCreditNotValidRusOwner() {
         SelectPaymentPage selectPaymentPage = new SelectPaymentPage();
         selectPaymentPage.openPage();
