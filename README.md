@@ -7,7 +7,7 @@
 #### [Отчёт о проведённой автоматизации](https://github.com/AlexanderKachalov/diplom/blob/master/docs/Summary.md)      
 ***  
 ### Issues   
-* На найденные ошибки в работе веб-приложения по проведенным авто-тестам составлены [Issues](https://github.com/AlexanderKachalov/diplom/issues)   
+* На найденные ошибки в работе веб-приложения по проведенным авто-тестам составлены [Issues](https://github.com/AlexanderKachalov/diplom/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc)   
 * На Issues #1, #2 и #21 авто-тесты не производились
 ***   
 
