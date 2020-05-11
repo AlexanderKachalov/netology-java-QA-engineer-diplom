@@ -52,7 +52,7 @@
   ```
   ./gradlew allureServe   
   ```   
-### Для работы с PostgreSQL
+#### Для работы с PostgreSQL
   2. Запускаем веб-сервис командой   
   ```  
   java -jar aqa-shop.jar --spring.profiles.active=postgresql
@@ -78,7 +78,7 @@
   ```
   ./gradlew allureServe
   ```   
-#### После проведения авто-тестов   
+### После проведения авто-тестов   
  * останавливаем работу приложения _Docker_   
   ```
   docker-compose down
