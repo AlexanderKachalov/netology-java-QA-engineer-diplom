@@ -4,8 +4,12 @@
 ### Документация
 #### [План автоматизации](https://github.com/AlexanderKachalov/diplom/blob/master/docs/Plan.md)   
 #### [Отчет о проведенном тестировании](https://github.com/AlexanderKachalov/diplom/blob/master/docs/Report.md)   
-#### [Отчёт о проведённой автоматизации](https://github.com/AlexanderKachalov/diplom/blob/master/docs/Summary.md)   
+#### [Отчёт о проведённой автоматизации](https://github.com/AlexanderKachalov/diplom/blob/master/docs/Summary.md)      
 ***  
+### Issues   
+* На найденные ошибки в работе веб-приложения по проведенным авто-тестам составлены [Issues](https://github.com/AlexanderKachalov/diplom/issues)   
+* На Issues #1, #2 и #21 авто-тесты не производились
+***   
 
 ### Процедура запуска авто-тестов   
 ---  
