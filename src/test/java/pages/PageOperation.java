@@ -9,10 +9,9 @@ import utils.CardData;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.*;
 
-public class Page {
+public class PageOperation {
     public static int timeout = 40000;
 
     private final SelenideElement continueButton = $(byText("Продолжить")).parent().parent();;
@@ -26,13 +25,13 @@ public class Page {
     private final ElementsCollection errorText = $$(".input__sub");
 
 
-    @Step("Проверка оплаты c валидными данными")
+    @Step("Проверка оплаты c корректными данными")
     public void paymentValidCard() {
         continueButton.click();
         successOperation.waitUntil(Condition.visible, timeout);
     }
 
-    @Step("Проверка оплаты с невалидными данными")
+    @Step("Проверка оплаты с некорректными данными")
     public void paymentNotValidCardData(String textError) {
         continueButton.click();
         SelenideElement errorField = errorText.findBy(Condition.text(textError));
@@ -60,6 +59,11 @@ public class Page {
         continueButton.click();
         SelenideElement errorField = errorText.findBy(Condition.text(textError));
         errorField.shouldNotBe(Condition.text(textError));
+    }
+
+    @Step("Открытие страницы веб-сервиса")
+    public void openPage() {
+        open("http://localhost:8080");
     }
 
 }

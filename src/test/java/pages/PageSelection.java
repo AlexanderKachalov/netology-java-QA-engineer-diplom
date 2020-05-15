@@ -6,7 +6,7 @@ import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class SelectPaymentPage {
+public class PageSelection {
 
     private final SelenideElement paymentButton = $(byText("Купить")).parent().parent();;
     private final SelenideElement creditButton = $(byText("Купить в кредит")).parent().parent();
@@ -16,16 +16,12 @@ public class SelectPaymentPage {
 
     public void cardPayment() {
         paymentButton.click();
-        paymentCardHead.waitUntil(Condition.visible, Page.timeout);
+        paymentCardHead.waitUntil(Condition.visible, PageOperation.timeout);
     }
 
     public void creditPayment() {
         creditButton.click();
-        paymentCreditHead.waitUntil(Condition.visible, Page.timeout);
-    }
-
-    public void openPage() {
-            open("http://localhost:8080");
+        paymentCreditHead.waitUntil(Condition.visible, PageOperation.timeout);
     }
 
 }

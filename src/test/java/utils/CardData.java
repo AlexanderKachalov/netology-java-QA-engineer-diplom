@@ -21,7 +21,7 @@ public class CardData {
 
 
     // проверка карты APPROVED
-    @Step("Заполнение полей данными карты со статусом APPROVED")
+    @Step("Генерация данных для карты со статусом APPROVED")
     public static CardData approvedCard() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -33,7 +33,7 @@ public class CardData {
     }
 
     // проверка карты DECLINED
-    @Step("Заполнение полей данными карты со статусом DECLINED")
+    @Step("Генерация данных для карты карты со статусом DECLINED")
     public static CardData declinedCard() {
         String cardNumber = validDeclinedCardNum();
         String month = validMonth();
@@ -45,7 +45,7 @@ public class CardData {
     }
 
     // Проверка поля Номер карты
-    @Step("Заполнение полей с невалидным произвольным номером карты")
+    @Step("Генерация данных для карты со значением в поле 'Номер карты': произвольные 16-ть цифр")
     public static CardData randomCardNumber() {
         String cardNumber = notValidRandomCardNum();
         String month = validMonth();
@@ -56,7 +56,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным коротким номером карты")
+    @Step("Генерация данных для карты с коротким значением в поле 'Номер карты': произвольные 12-ть цифр")
     public static CardData shortCardNumber() {
         String cardNumber = notValidShortCardNum();
         String month = validMonth();
@@ -68,7 +68,7 @@ public class CardData {
     }
 
     //проверка поля месяц
-    @Step("Заполнение полей с невалидным несуществующем месяцем")
+    @Step("Генерация данных для карты со значением в поле 'Месяц': 13")
     public static CardData impossibleMonth() {
         String cardNumber = validApprovedCardNum();
         String month = notValidNotPossibleMonth();
@@ -79,7 +79,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным несуществующем месяцем")
+    @Step("Генерация данных для карты со значением в поле 'Месяц': 00")
     public static CardData zeroMonth() {
         String cardNumber = validApprovedCardNum();
         String month = notValidZeroMonth();
@@ -90,7 +90,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным прошедшим годом")
+    @Step("Генерация данных для карты со значением в поле 'Год': -1 от текущего")
     public static CardData lastYear() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -101,7 +101,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным будущим годом")
+    @Step("Генерация данных для карты со значением в поле 'Год': +6 от текущего")
     public static CardData futureYear() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -112,7 +112,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным пользователем на кириллице")
+    @Step("Генерация данных для карты со значением в поле 'Пользователь': набор на кириллице")
     public static CardData russianNameOwner() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -123,7 +123,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным пользователем любые символы")
+    @Step("Генерация данных для карты со значением в поле 'Пользователь': произвольные символы")
     public static CardData anyValuesOwner() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -134,7 +134,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным пользователем номер телефона")
+    @Step("Генерация данных для карты со значением в поле 'Пользователь': номера телефона")
     public static CardData phoneNumberOwner() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -145,7 +145,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным пользователем пустое поле")
+    @Step("Генерация данных для карты со значением в поле 'Пользователь': пустое поле")
     public static CardData emptyFieldOwner() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -157,7 +157,7 @@ public class CardData {
     }
 
 
-    @Step("Заполнение полей с невалидным CVC/CVV равным 000")
+    @Step("Генерация данных для карты со значением в поле 'CVC/CVV': 000")
     public static CardData zeroNumberCVC() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -168,7 +168,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение полей с невалидным CVC/CVV пустое поле")
+    @Step("Генерация данных для карты со значением в поле 'CVC/CVV': пустое поле")
     public static CardData emptyFieldCVC() {
         String cardNumber = validApprovedCardNum();
         String month = validMonth();
@@ -179,7 +179,7 @@ public class CardData {
         return new CardData(cardNumber, month, year, owner, cvc, status);
     }
 
-    @Step("Заполнение всех полей формы - пустые поля")
+    @Step("Генерация данных для карты: все поля остаются пустыми")
     public static CardData emptyAllFieldCard() {
         String cardNumber = emptyField();
         String month = emptyField();
