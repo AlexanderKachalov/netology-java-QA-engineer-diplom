@@ -55,7 +55,6 @@ public class DbOperation {
         return runner.query(conn(), selectCreditPayValues, new BeanHandler<>(DbData.class));
     }
 
-   // !!!!  new 15.05.2020
     @Step("Выборка полей payment_id и credit_id из таблицы order_entity")
     private DbData orderEntityDataBaseValues() throws SQLException {
         val selectCreditPayValues = "SELECT payment_id, credit_id FROM order_entity;";
