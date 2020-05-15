@@ -15,4 +15,5 @@ public class DbData {
     private String bank_id;
     private String payment_id;
     private String credit_id;
+    
 }
