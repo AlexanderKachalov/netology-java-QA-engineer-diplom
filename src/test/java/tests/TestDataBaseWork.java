@@ -116,8 +116,8 @@ public class TestDataBaseWork {
         pageSelection.cardPayment();
         pageOperation.fillData(CardData.approvedCard());
         pageOperation.paymentValidCard();
-        val transactionIdActual = dbOperation.getPaymentEntityDataBaseValues().getTransaction_id();
-        val orderPaymentIdExpected = dbOperation.getOrderEntityDataBaseValues().getPayment_id();
+        val transactionIdActual = dbOperation.getPaymentEntityDataBaseValues().getTransactionId();
+        val orderPaymentIdExpected = dbOperation.getOrderEntityDataBaseValues().getPaymentId();
         assertEquals(orderPaymentIdExpected, transactionIdActual);
     }
 
@@ -128,8 +128,8 @@ public class TestDataBaseWork {
         pageSelection.cardPayment();
         pageOperation.fillData(CardData.declinedCard());
         pageOperation.paymentValidCard();
-        val transactionIdActual = dbOperation.getPaymentEntityDataBaseValues().getTransaction_id();
-        val orderPaymentIdExpected = dbOperation.getOrderEntityDataBaseValues().getPayment_id();
+        val transactionIdActual = dbOperation.getPaymentEntityDataBaseValues().getTransactionId();
+        val orderPaymentIdExpected = dbOperation.getOrderEntityDataBaseValues().getPaymentId();
         assertEquals(orderPaymentIdExpected, transactionIdActual);
     }
 
@@ -140,8 +140,8 @@ public class TestDataBaseWork {
         pageSelection.creditPayment();
         pageOperation.fillData(CardData.approvedCard());
         pageOperation.paymentValidCard();
-        val bankIdActual = dbOperation.getCreditRequestEntityDataBaseValues().getBank_id();
-        val creditIdExpected = dbOperation.getOrderEntityDataBaseValues().getCredit_id();
+        val bankIdActual = dbOperation.getCreditRequestEntityDataBaseValues().getBankId();
+        val creditIdExpected = dbOperation.getOrderEntityDataBaseValues().getCreditId();
         assertEquals(creditIdExpected, bankIdActual);
     }
 
@@ -152,8 +152,8 @@ public class TestDataBaseWork {
         pageSelection.creditPayment();
         pageOperation.fillData(CardData.declinedCard());
         pageOperation.paymentValidCard();
-        val bankIdActual = dbOperation.getCreditRequestEntityDataBaseValues().getBank_id();
-        val creditIdExpected = dbOperation.getOrderEntityDataBaseValues().getCredit_id();
+        val bankIdActual = dbOperation.getCreditRequestEntityDataBaseValues().getBankId();
+        val creditIdExpected = dbOperation.getOrderEntityDataBaseValues().getCreditId();
         assertEquals(creditIdExpected, bankIdActual);
     }
 

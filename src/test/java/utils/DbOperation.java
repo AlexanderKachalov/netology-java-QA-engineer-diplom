@@ -86,24 +86,22 @@ public class DbOperation {
         return Integer.parseInt(countRecord.toString());
     }
 
-
-
     private static String url() {
         return System.getProperty("db.url");
     }
-    private static String user() {
-        return "app";
+
+    private static String username() {
+        return System.getProperty("username");
     }
+
     private static String password() {
-        return "pass";
+        return System.getProperty("password");
     }
-
-
 
     public static Connection conn() {
         Connection conn;
         try {
-            conn = DriverManager.getConnection(url(), user(), password());
+            conn = DriverManager.getConnection(url(), username(), password());
             {
                 System.out.println("Connection to DB is good!");
                 return conn;
@@ -120,7 +118,7 @@ public class DbOperation {
         val deletePaymentEntity = "DELETE FROM payment_entity;";
         val deleteCreditEntity = "DELETE FROM credit_request_entity;";
         try (
-                Connection connectionMysql = DriverManager.getConnection(url(), user(), password());
+                Connection connectionMysql = DriverManager.getConnection(url(), username(), password());
 
                 PreparedStatement statementOrderEntity = connectionMysql.prepareStatement(deleteOrderEntity);
                 PreparedStatement statementPaymentEntity = connectionMysql.prepareStatement(deletePaymentEntity);

@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 public class DbData {
     private String status;
     private int amount;
-    private String transaction_id;
-    private String bank_id;
-    private String payment_id;
-    private String credit_id;
+    private String transactionId;
+    private String bankId;
+    private String paymentId;
+    private String creditId;
     
 }

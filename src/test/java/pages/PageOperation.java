@@ -63,7 +63,7 @@ public class PageOperation {
 
     @Step("Открытие страницы веб-сервиса")
     public void openPage() {
-        open("http://localhost:8080");
+        open(System.getProperty("webservice.url"));
     }
 
 }
